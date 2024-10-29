@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Website Design</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- EmailJS script -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS User ID
+      })();
+    </script>
+</head>
+<body>
+    <!-- Header Design -->
+    <header class="header"> 
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a> <!-- ID ko update kiya -->
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>I'm Developer</h1>
+            <p>A developer is a person who creates software, websites, and applications using technical knowledge and creativity. He is an expert in finding solutions to problems and is skilled in writing new codes. The job of a developer is not just to write code, but it is his responsibility to understand the needs of the users and provide them with the best technical solutions.</p>
+            <div class="social-media">
+                <a href="https://github.com/poojasahu398"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/pooja-sahu-9b09042a2/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1twqn23uaAbKYA_6JZ9AWAsOMENJA8M93/view?usp=sharing" class="btn">About My Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="puja's image.jpeg" alt="">
+        </div>
+    </section>
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="puja's image2.jpeg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>ME</span></h2>
+            <p style="font-size: 20px;"><p>I am a dedicated professional seeking a challenging software development role where I can leverage my proficiency in coding, particularly in HTML, CSS, and JavaScript, along with strong knowledge of Frappe and basic knowledge of WordPress. With a strong foundation in education as an English Coordinator at NavGurukul Campus, Udaipur, I have developed a comprehensive understanding of curriculum development, student support, and educational management.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section Design -->
+    <section class="services" id="skills">
+        <h2 class="heading">MY <span>SKILLS</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fas fa-code"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="services-box">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="services-box">
+                <i class="fab fa-js"></i>
+                <h3>JAVASCRIPT</h3>
+            </div>
+            <div class="services-box">
+                <i class="fab fa-python"></i> <!-- Updated Python Icon -->
+                <h3>PYTHON</h3>
+            </div>
+            <div class="services-box">
+                <i class="fas fa-cogs"></i> <!-- Updated Frappe Framework Icon -->
+                <h3>FRAPPE FRAMEWORK</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section Design -->
+<h2 class="heading">MY <span>PROJECT</span></h2>
+<section class="portfolio" id="projects"> <!-- ID ko set kiya -->
+    <div class="services-container">
+        <div class="services-box">
+            <i class="fa-solid fa-cloud"></i>
+            <div class="portfolio-layer">
+                <h4>Weather App</h4>
+                <p>I made this app using CSS, HTML, and JavaScript</p>
+                <a href="https://muskanagnihotri.github.io/WeatherApp/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+
+        <!-- New Project 1 -->
+        <div class="services-box">
+            <i class="fa-solid fa-laptop-code"></i> <!-- Change icon as needed -->
+            <div class="portfolio-layer">
+                <h4>Calculetor</h4>
+                <p>I made this app using CSS, HTML and JavaScript.</p>
+                <a href="https://poojasahu398.github.io/calculator-/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+
+        <!-- New Project 2 -->
+        <div class="services-box">
+            <i class="fa-solid fa-gamepad"></i> <!-- Change icon as needed -->
+            <div class="portfolio-layer">
+                <h4>Estilo Of Website </h4>
+                <p>I made this website using wordpress.</p>
+                <a href="https://wordpress.com/page/freehosting41.wordpress.com/47" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+ 
+
+    <!-- Experience Section Design -->
+    <section class="services" id="experience">
+        <h2 class="heading">MY <span>EXPERIENCE</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fas fa-award"></i>
+                <div class="experience-layer">
+                <p>English Coordinator, NavGurukul Campus, Udaipur | 01/2024-03/2024</p>
+                <ul>
+                    <li style="font-size: 10px;">Developed the English curriculum.</li>
+                    <li style="font-size: 10px;">Supported and trained students and teachers.</li>
+                    <li style="font-size: 10px;">Organized activities and workshops.</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">CONTACT <span>ME</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 Pooja Sahu. All rights reserved.</p>
+        </div>
+        
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
